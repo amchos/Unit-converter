@@ -22,8 +22,8 @@ function metrFeet(number) {
 }
 
 function gallonLiter(number) {
-    let galons = (number * 3.785).toFixed(3)
-    let liters = (number / 3.78541).toFixed(3)
+    let galons = (number / 3.785).toFixed(3)
+    let liters = (number * 3.78541).toFixed(3)
     let result = `${number} liters = ${galons} gallons | ${number} gallons = ${liters} liters`
     return result
 }
